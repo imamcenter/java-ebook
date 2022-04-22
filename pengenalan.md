@@ -317,3 +317,84 @@ public class PraktikumTiga{
 2.	Buatlah sebuah program untuk menghitung luas segitiga dan menampilkan hasilnya pada console;
 
 
+
+# **OPERATOR**
+Operator dapat diartikan juga simbol yang biasa digunakan dalam menulis suatu pernyataan dalam bahasa pemrograman. Operator akan melakukan suatu operasi terhadap operand sesuai dengan fungsinya. Operator ini mengikuti bermacam-macam prioritas yang pasti sehingga compilernya akan tahu yang mana operator untuk dijalankan lebih  dulu  dalam   kasus beberapa operator yang dipakai bersama-sama dalam satu pernyataan.
+
+## 3.1	**Operator Penugasan**
+Setelah suatu variabel dideklarasikan anda bisa menugaskan suatu nilai kepadannya menggunakan operator penugasan. Dalam java tanda “sama dengan” (=) digunakan sebagai operator penugasan. Contoh operator penugasan:
+
+    int x = 1;          //penugasan 1 kepada variable x
+    double luas = 1.0;  // penugasan 1.0 kepada luas 
+    x = 5 * (2 + 4);
+
+## 3.2	**Operator Aritmatika**
+Operator aritmatika mencakup: penjumlahan (+), pengurangan (-), perkalian (*), pembagian (/), dan modulus (%).
+
+| Operator |	Arti             |	Contoh  |	Hasil |
+|----------|---------------------|----------|---------| 
+| +	       | Penjumlahan	     | 5 + 4    |9        |
+| -	       | Pengurangan	     | 10 – 7   |3        |
+| *	       | Perkalian	         | 8 * 2    |16       |
+| /	       | Pembagian	         | 10 / 5   |2        |
+| %	       | Modulus (Sisa bagi) | 25 % 3   |1        |
+
+Ketika dua operand dari operator pembagian adalah integer, maka hasilnya akan **integer**.
+Bagian fraksional akan dibuang. Misalnya, 5/2 akan menghasilkan **2**, bukan **2.5**.
+
+## 3.3	**Operator Penaikan dan Penurunan**
+Operator ini biasa disebut dengan operator increment dan decrement. Operator ini digunakan untuk menaikkan atau menurunkan suatu nilai integer (bilangan bulat) sebanyak satu (1) satuan dan hanya dapat digunakan pada variabel.
+Sebagai contoh, pernyataan
+
+     hitung = hitung + 1; //menambahkan variabel hitung dengan 1 
+sama dengan: 
+
+    hitung++;
+
+Tabel 3.2 Operator Increment dan Decrement
+
+
+## 3.4	**Operator Relasional**
+Operator ini digunakan untuk membandingkan dua buah nilai operand dan menghasilkan nilai Boolean, yaitu true atau false.
+Java menyediakan enam operator relasional, seperti yang ditunjukkan pada tabel yang dapat digunakan untuk membandingkan dua nilai.
+
+Tabel 3.3 Operator Relasional
+
+
+## 3.5	**Operator Logika**
+Operator logika memiliki satu atau lebih operand boolean yang menghasilkan nilai boolean, dengan kata lain operator ini hanya dapat digunakan untuk operand yang bertipe boolean.
+Terdapat 6 operator logika dalam java, yaitu: `&&` (logika AND), `&` (boolean logika AND), `||`
+(logika OR), | (boolean logika inclusive OR), `^` (boolean logika exclusive OR), dan `!` (logika NOT).
+
+### 3.5.1	**Operator AND (&&) dan boolean logika AND (&)**
+Hasil operator AND bernilai `true` jika dan hanya jika kedua operand memiliki nilai boolean
+`true`. Berikut ini adalah tabel kebenaran untuk AND
+
+Tabel 3.4 Tabel Kebenaran Operator AND
+
+### 3.5.2	**Operator OR (||) dan boolean logika OR (|)**
+Hasil operator OR bernilai `true` jika salah satu dari operand memiliki nilai boolean true.
+Berikut ini adalah tabel kebenaran untuk OR:
+Tabel 3.4 Tabel Kebenaran Operator AND
+
+### 3.5.3	**Operator exclusive OR (^)**
+Hasil operator exclusive OR bernilai true jika dan hanya jika kedua operand memiliki nilai boolean yang berbeda. Berikut ini adalah tabel kebenaran untuk exclusive OR:
+Tabel 3.4 Tabel Kebenaran Operator OR
+|  P1  |  P2  |  P1 ^ P2  |
+|------|------|-----------|
+|true  |true  |false      |
+|false |true  |true       |
+|true  |false |true       |
+|false |false |false      |
+
+### **3.5.4	Operator NOT (!)**
+Logika NOT digunakan dalam satu argumen, dimana argumen tersebut dapat menjadi suatu pernyataan, variabel atau konstanta. Berikut adalah tabel kebenaran untuk NOT:
+Tabel 3.4 Tabel Kebenaran Operator AND
+|P1	   |!P1   |
+|------|------|
+|true  |false |
+|false |true  |
+
+
+
+
